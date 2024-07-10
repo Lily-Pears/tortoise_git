@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    
+<title>おすすめアニメ｜もやしもん</title>
+</head>
+
+<style>
+
+body{
+        background-image:url("https://d1fwgdbfuvd4ew.cloudfront.net/wp-content/uploads/2022/12/11anj7_MOYASHIMON-thumb-765xauto-1859.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        background-blend-mode: lighten;
+        font-weight: bold;
+    }
+
+    .anime img {
+    width: 80px;
+    height: auto;
+}
+
+.slide-in {
+  font-size: 60px;
+  font-weight: bold;
+  animation: slideIn 1s ease-out;
+  text-align: center;
+  background-color: rgb(247, 255, 136);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.underlined-text {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.underlined-text::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: rgb(255, 153, 241);
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  animation: underlineDelay 0.5s 1 0.5s ease-in-out forwards; /* 遅延とアニメーションの設定 */
+}
+
+@keyframes underlineDelay {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.bg {
+    background-color: rgb(255, 255, 250);
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+   width:95%;
+    margin:0 auto;
+}
+
+.slider img {
+    width:500px;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+    margin:auto;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 42%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #333333;/*矢印の色*/
+    border-right: 2px solid #333333;/*矢印の色*/
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+    text-align:center;
+	margin:20px 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+	margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;/*ドットボタンのサイズ*/
+    height:8px;/*ドットボタンのサイズ*/
+    display:block;
+    border-radius:50%;
+    background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+    background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+th {
+  text-align: center;
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+  font-size: 15px;
+}
+
+td img {
+ width: 50px;
+ height: auto;
+}
+
+table th {
+  border-bottom: 2px black solid;
+  border-collapse: collapse;
+ 
+}
+
+table td {
+  border-bottom: 1px gray solid;
+  border-collapse: collapse;
+}
+
+.shu {
+  font-size: 10px;
+  text-align: right;
+}
+
+.scroll {
+    width:auto;
+    height: 260px;
+    overflow: auto;
+    text-align: left;
+    font-weight: bold;
+    padding: auto;
+}
+
+
+
+</style>
+
+<body>
+<div class="slide-in">もやしもん</div>
+<br>
+<div class="bg">
+<p><div class="underlined-text">ストーリー</div>
+<br>もやし(種麴)屋の次男坊である沢木 惣右衛門直保(さわき そうえもんただやす)は、菌やウイルスを視認し会話できるという特殊能力を持っていた。
+<br>直保は、幼馴染の結城 蛍(ゆうき けい)とともに、祖父の友人である樹慶蔵が教授を務める「某農業大学」へと入学する。
+<br>院生の長谷川遥とゼミ生の武藤葵、２年の美里薫と川浜拓馬、偶然ゼミに参加することになった１年の及川葉月を加えた面々のハチャメチャ学園生活！
+<br>かもすぞーーーーーーーーーーーーーーーーーーー
+</p>
+</div>
+(※)かもす(醸す)：作中のシンボル的フレーズで、「繁殖する」「発酵・腐敗させる」ことを意味する
+<br>
+<br>
+<div class="bg">
+<p><div class="underlined-text">主な菌ども</div></p>
+<div class="shu">(※画像出典：https://w.atwiki.jp/moyashimon/pages/226.html)</div>
+
+<br>
+<div class="scroll">
+<table align="center">
+  <tr>
+    <th>作中名<br>(和名・別名)</th>
+    <th>見た目</th>
+    <th>役割</th>
+    <th>口癖・口調など</th>
+  </tr>
+<tr>
+  <td>A.オリゼー<br>(二ホンコウジカビ)</td>
+  <td><img src="https://www39.atwiki.jp/_pub/moyashimon/icon-mini/a-oryzae_s.gif"></td>
+  <td>デンプンやたんぱく質を醸し、糖にする</td>
+  <td>とてもよく喋る</td>
+</tr>
+<tr>
+  <td>S.セレビシエ<br>(酵母菌)</td>
+  <td><img src="https://www39.atwiki.jp/_pub/moyashimon/icon-mini/s-cerevisiae_s.gif"></td>
+  <td>糖を醸してアルコールにする</td>
+  <td>「アルコールでちゃった」</td>
+</tr>
+<tr>
+  <td>P.クリソゲヌム<br>(青カビ)</td>
+  <td><img src="https://www39.atwiki.jp/_pub/moyashimon/icon-mini/p-chrysogenum_s.gif"></td>
+  <td>空気中に漂い、パンや餅をカビさせる</td>
+  <td>*</td>
+</tr>
+<tr>
+  <td>C.トリコイデス<br>(黒カビ)</td>
+  <td><img src="https://www39.atwiki.jp/_pub/moyashimon/icon-mini/c-trichoides_s.gif"></td>
+  <td>いろんなものや場所を黒いシミにする</td>
+  <td>*</td>
+</tr>
+<tr>
+  <td>A.アルテルナータ<br>(ススカビ)</td>
+  <td><img src="https://img.atwiki.jp/moyashimon/pub/icon-anime/a-alternata_a.gif"></td>
+  <td>イチゴ黒斑病の原因菌<br>有機物だけでなく、プラスチックも醸す</td>
+  <td>*</td>
+</tr>
+<tr>
+  <td>L.ヨグルティ<br>(乳酸菌)</td>
+  <td><img src="https://img.atwiki.jp/moyashimon/pub/icon-anime/l-jugurti_a.gif"></td>
+  <td>よく、日本のヨーグルトによくいる</td>
+  <td>「ござる」「ござるか」</td>
+</tr>
+<tr>
+  <td>L. フルクチボランス<br>(火落ち菌)</td>
+  <td><img src="https://img.atwiki.jp/moyashimon/pub/icon/l-fructivorans.gif"></td>
+  <td>オリゼーたちが日本酒を醸す時に出す酸の一種が好物<br>日本酒を腐敗させる「火落ち」と呼ばれる現象を起こす</td>
+  <td>*</td>
+</tr>
+<tr>
+  <td>アセチ<br>(酢酸菌)</td>
+  <td><img src="https://img.atwiki.jp/moyashimon/pub/icon/a-aceti.gif"></td>
+  <td>エタノールを醸して酢酸を作る</td>
+  <td>「す」</td>
+</tr>
+<tr>
+  <td>O157<br>(腸管出血性大腸菌)</td>
+  <td><img src="https://www39.atwiki.jp/_pub/moyashimon/icon-anime/o157_a.gif"></td>
+  <td>食中毒の原因菌として有名<br>死亡者を出すくらい強い毒性を持つ</td>
+  <td>「かもして ころすぞ」</td>
+</tr>
+<tr>
+  <td>T. ルブラム<br>(白癬菌)</td>
+  <td><img src="https://img.atwiki.jp/moyashimon/pub/icon-anime/t-rubrum_a.gif"></td>
+  <td>水虫の原因菌</td>
+  <td>*</td>
+</tr>
+<tr>
+  <td>B.ナットー<br>(納豆菌)</td>
+  <td><img src="https://img.atwiki.jp/moyashimon/pub/icon-anime/b-natto_a.gif"></td>
+  <td>日本を代表する発酵食品である納豆を作る</td>
+  <td>*</td>
+</tr>
+
+</table>
+</div>
+</div>
+
+<br>
+
+
+
+
+<br>
+
+<div class="bg">
+  <p><div class="underlined-text">登場人物</div></p>
+<ul class="slider">
+    <li><img src="https://kamosuzo2.tv/character/img/chara01.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara02.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara03.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara04.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara05.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara06.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara07.png"></li>
+    <li><img src="https://kamosuzo2.tv/character/img/chara08.png"></li>
+</ul>
+</div>
+
+<br>
+
+
+<hr>
+<br>
+<div class="anime" align="right">
+<a href="anime.html">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7ZPXV5VNhzOZPYUpJGP56k3aWf7AnoDOXENGxX_rFXHHt5yeXDS_zz5R_vUjLTwWjcTMOP6tSo9VzBjIJAa79mkRMTElPHbSvxpDfdlAvS3sKKX2xMnH2wJyZFmntJGxLioMfzfq6W6Eq/s800/navigationj_prev.png">
+</a>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$('.slider').slick({
+    autoplay: true,//自動的に動き出すか。初期値はfalse。
+    infinite: true,//スライドをループさせるかどうか。初期値はtrue。
+    slidesToShow: 2,//スライドを画面に3枚見せる
+    slidesToScroll: 2,//1回のスクロールで3枚の写真を移動して見せる
+    prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
+    nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
+    dots: true,//下部ドットナビゲーションの表示
+});
+</script>
+</body>
+</html>
